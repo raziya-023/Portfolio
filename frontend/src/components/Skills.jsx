@@ -9,7 +9,7 @@ const skills = [
     { icon: <FaPython />, name: 'Python', color: '#3776AB' },
     { icon: <FaReact />, name: 'React', color: '#61DAFB' },
     { icon: <FaNodeJs />, name: 'Node.js', color: '#339933' },
-    { icon: <SiExpress />, name: 'Express.js', color: '#000000' },
+    { icon: <SiExpress />, name: 'Express.js' },
     { icon: <SiMongodb />, name: 'MongoDB', color: '#47A248' },
     { icon: <FaGitAlt />, name: 'Git', color: '#F05032' },
     { icon: <SiTailwindcss />, name: 'Tailwind CSS', color: '#06B6D4' },
@@ -30,7 +30,10 @@ const Skills = () => {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="flex flex-col items-center p-4"
                         >
-                            <div className="text-6xl mb-2" style={{ color: skill.color === '#000000' && document.documentElement.classList.contains('dark') ? '#FFFFFF' : skill.color }}>
+                            <div
+                                className={`text-6xl mb-2 ${skill.name === 'Express.js' ? 'text-black dark:text-white' : ''}`}
+                                style={{ color: skill.color }}
+                            >
                                 {skill.icon}
                             </div>
                             <p className="font-medium">{skill.name}</p>
