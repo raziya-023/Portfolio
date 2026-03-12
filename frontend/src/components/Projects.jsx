@@ -19,9 +19,9 @@ const featuredProjects = [
     },
     {
         id: 3,
-        name: "AI-Powered Virtual Assistant",
-        description: "A voice-enabled assistant built with Python, NLP, and Speech Recognition to handle tasks like reminders and scheduling through natural voice interaction.",
-        githubUrl: "#",
+        name: "AutoTriage-AI",
+        description: "An intelligent, event-driven customer support ticketing system. This full-stack application allows users to submit support tickets, which are then automatically analyzed, prioritized, and assigned to the correct staff member using an AI Agent running in the background.",
+        githubUrl: "https://github.com/raziya-023/AutoTriage-AI",
         liveUrl: null
     }
 ];
