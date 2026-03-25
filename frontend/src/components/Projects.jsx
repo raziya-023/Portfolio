@@ -22,7 +22,7 @@ const featuredProjects = [
         name: "AutoTriage-AI",
         description: "An intelligent, event-driven customer support ticketing system. This full-stack application allows users to submit support tickets, which are then automatically analyzed, prioritized, and assigned to the correct staff member using an AI Agent running in the background.",
         githubUrl: "https://github.com/raziya-023/AutoTriage-AI",
-        liveUrl: null
+        liveUrl: "https://auto-triage-ai.vercel.app/"
     }
 ];
 
